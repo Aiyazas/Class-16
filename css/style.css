@@ -1,0 +1,51 @@
+/* common code start*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    }
+    h1,h4{
+        font-family: 'Abril Fatface', cursive;
+    }
+    h2,h3,h5,h6,button,a{
+        font-family: 'Ubuntu', sans-serif; 
+    }
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* common code end */
+#top_bar{
+    background-color:#0f2f44 ;
+    color: #ffff;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.navbar-nav li a{
+    color: #222222;
+    transition: .7s;
+    font-weight: bold;
+}
+.navbar-nav li a:hover{
+    color: #ffcb31;
+   
+
+}
+.navbar-nav li button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffff;
+    margin: 10px;
+    color: #c3c3c3;
+    border:1px solid #e0e0e0;
+
+}
+.navbar-nav li button:hover{
+    color: #ffcb31;
+    
+
+}
